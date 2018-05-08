@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS inquiry;
+CREATE TABLE inquiry(
+
+	'id'
+	'name' お名前
+	'address' 連絡先
+	'body' 問い合わせ内容
+	'created_at' 問い合わせ時間
+	'response_name' 返信担当者名
+	'response_body' 返信内容
+	'response_at' 返信時間
+);
